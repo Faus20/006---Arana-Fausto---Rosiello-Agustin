@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="imagenes/icono.ico" type="image/png" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <img src="imagenes/logo.png" alt="Logo">
+        </header>
+        <div class="btn_menu">
+            <h1>MENÚ</h1>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li class="item"><a class="botones" href="index.html">Inicio</a></li>
+                <li class="item"><a class="botones" href="productos.html">Productos</a></li>
+                <li class="item"><a class="botones" href="soporte.html">Soporte</a></li>
+            </ul>
+        </nav>
+        <div class="seccion_soporte">
+            <a href="soporte.html"> <img class="publi" alt="Logo soporte" src="imagenes/soporte.png" /></a>
+            <h1>Soporte</h1>
+        </div>
+        <div class="formulario">
+            <form>
+                <div class="titulo_formulario">
+                    Complete el formulario
+                </div>
+                <div class="fila_formulario">
+                    <div>
+                        <label for="fname"> Nombre: </label>
+                        <input type="text" id="fname" name="fname" value="">
+                    </div>
+                    <div>
+                        <label for="lname">Apellido:</label>
+                        <input type="text" id="lname" name="lname" value="">
+                    </div>
+                    <div>
+                        <label for="birthday">Fecha de Nacimiento:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                </div>
+                <div class="fila_formulario">
+                    <label for="gender">Genero: </label>
+                    <input type="radio" id="fem" name="gender" value="">
+                    <label class="genero" for="male">Femenino</label>
+                    <input type="radio" id="mas" name="gender" value="mas">
+                    <label class="genero" for="female">Masculino</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label class="genero" for="other">No binario</label>
+                </div>
+                <div class="fila_formulario">
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="select">Pais:</label>
+                        <select>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="uruguay">Urugay</option>
+                       </select>
+                    </div>
+                </div>
+                <div class="fila_formulario">
+                    <label for="txt">Escribanos cual es su problema:</label>
+
+                </div>
+                <div class="textarea">
+                    <textarea cols="40" rows="10" placeholder="describa su problema"></textarea>
+                </div>
+                <div class="fila_formulario">
+                    <div>
+                        <p>Comprueba que eres humanx</p>
+                        <p class="textoCaptcha" id="naleatorio"></p>
+                    </div>
+                </div>
+                <div class="fila_formulario">
+                    <label for="IngresarNumero">Escribir el Nº que aparece: </label>
+                    <input type="number" id="IngresarNumero">
+                    <input type="button" id="botonComprobar" value="Comprobar">
+                </div>
+                <div class="fila_formulario">
+                    <p id="validacion"></p>
+                </div>
+                <div id="enviar">
+                    <input class="registro" type="submit" value="Enviar">
+                </div>
+            </form>
+
+        </div>
+
+        <div class="separador2">
+            <h1>Trabajamos con...</h1>
+        </div>
+        <div>
+            <ul class="publicidad">
+                <li>
+                    <a href="http://www.nvidia.com/"> <img class="publi" alt="Logo Nvidia" src="imagenes/nvidia.jpg" /></a>
+                </li>
+                <li>
+                    <a href="http://www.razer.com/"> <img class="publi" alt="Logo Razer" src="imagenes/razer.jpg" /></a>
+                </li>
+                <li>
+                    <a href="http://www.msi.com/"> <img class="publi" alt="Logo MSI" src="imagenes/msi.jpg" /></a>
+                </li>
+                <li>
+                    <a href="http://www.intel.com/"> <img class="publi" alt="Logo Razer" src="imagenes/intel.jpg" /></a>
+                </li>
+                <li>
+                    <a href="https://www.amd.com/es/ryzen"> <img class="publi" alt="Logo Ryzen" src="imagenes/ryzen.jpg" /></a>
+                </li>
+                <li>
+                    <a href="http://www.asus.com/"> <img class="publi" alt="Logo Asus" src="imagenes/asus.jpg" /></a>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <p>&copy Todos los derechos reservados</p>
+        </footer>
+    </div>
+    <script src="js/menu.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>
